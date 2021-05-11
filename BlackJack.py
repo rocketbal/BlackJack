@@ -15,7 +15,7 @@ class Card:
 
     def __str__(self):
         return self.rank + ' of ' + self.suit
-
+# Deck class to create a deck of 52 card and be able to shuffle it
 class Deck:
 
     def __init__(self):
